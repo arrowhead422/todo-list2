@@ -24,12 +24,12 @@
 
 	function add_task(){
 		$('.add-new-task').submit(function() {
-			var new-task = $('.add-new-task input[name=new-task]').val();
+			var new_task = $('.add-new-task input[name=new-task]').val();
 
 			if (new_task !='') {
 				$.post('includes/add-task.php', { task: new_task}, function(data){
-					$(('add-new-task input[name=new-task]').val();
-						$(data).appendTo(".task-list ul").hide().fadeIn();
+					$('add-new-task input[name=new-task]').val();
+						$(data).appendTo("task-list ul").hide().fadeIn();
 				});
 
 			}
