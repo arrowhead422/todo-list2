@@ -10,7 +10,7 @@
 			<ul>
 				
 					<?php require("includes/connect.php"); 
- 				$mysqli = new mysqli('localhost', 'root','root','todo');
+ 				$mysqli = new mysqli('localhost', 'root','root','todo1');
  				$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC ";
  				if ($result = $mysqli->query($query)) {
  					$numrows = $result->num_rows;
@@ -28,7 +28,7 @@
  					
  				}
 				?>
-				 ?>
+				 
 			</ul>
 		</div> 
 	<form class="add-new-task" autocomplete="off">
