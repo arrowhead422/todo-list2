@@ -9,7 +9,8 @@
 		<div class="task-list">
 			<ul>
 				
-					<?php require("includes/connect.php"); 
+					<?php require("includes/connect.php");
+					require_once("php/control/create-db.php"); 
  				$mysqli = new mysqli('localhost', 'root','root','todo1');
  				$query = "SELECT * FROM tasks ORDER BY date ASC, time ASC ";
  				if ($result = $mysqli->query($query)) {
