@@ -13,7 +13,7 @@
 	//it create a new mysqli
 
 	//it recevie information from the post and the title from the the filter input and it also sercer the blogs informations
-	$title = filter_input(INPUT_POST, "title", FILTER_SANITIZE_STRING);
+	$task = filter_input(INPUT_POST, "task", FILTER_SANITIZE_STRING);
 	$post = filter_input(INPUT_POST,"post", FILTER_SANITIZE_STRING);
 	$date = new DateTime('today');// date variable
 	$time = new DateTime('America/Los_Angeles');//time variable 

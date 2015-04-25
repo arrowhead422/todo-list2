@@ -10,7 +10,7 @@
 	if($result) {
 
 		while ($row = mysqli_fetch_array($result)) { // with this code from 12 to 18 it could display all the meassage on the blog.php
-			echo "<div class= 'post'>";
+			echo "<div class= 'task'>";
 			echo "<h2>" . $row["title"] . "</h2>";
 			echo "<br />";
 			echo "<p>" . $row["post"] . "</h1>";

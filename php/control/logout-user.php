@@ -7,6 +7,6 @@
 	unset($_SESSION["authenticated"]);  //deted the session
 
 	session_destroy();
-	header("Location: " . $path . "blog.php");
+	header("Location: " . $path . "index.php");
 			
 ?>
