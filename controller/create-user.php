@@ -1,3 +1,4 @@
+
 <?php
     require_once(__DIR__ . "/../model/config.php");
 
@@ -20,6 +21,7 @@
         if ($query) {
             $_SESSION["name"] = $username;
             echo "Successfully created user: " . $_SESSION["name"];
+
         } else {
             echo "<p>" . $_SESSION["connection"]->error . "</p>";
         }

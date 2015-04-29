@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<button type="button">
+        <a href="todo1/index.php">login</a>
+    </button>
+
+</body>
+</html>
 <?php
     require_once(__DIR__ . '/../model/config.php');
 
