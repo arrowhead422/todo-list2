@@ -3,6 +3,9 @@
 ?>
 <head><link rel="stylesheet" type="text/css" href="css/login-form.css"></head>
 <h1>Register</h1>
+<button type="button">
+        <a href="<?php echo $path . "login.php"?>">login</a>
+    </button>
 
 <form method="POST" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div class="group">      

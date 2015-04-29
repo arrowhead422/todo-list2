@@ -2,10 +2,21 @@
 <?php
     require_once(__DIR__ . "/../model/config.php");
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+
 <head><link rel="stylesheet" type="text/css" href="css/login-form.css"></head>
 <h1>Login</h1>
 <button type="button">
         <a href="<?php echo $path . "register.php"?>">register</a>
+    </button>
+    <button type="button">
+        <a href="<?php echo $path . "index.php"?>">Blog</a>
     </button>
 
 <form method="POST" action="<?php echo $path . "controller/login-user.php"; ?>">
@@ -40,3 +51,5 @@
     </div>
 
 </form>
+</body>
+</html>

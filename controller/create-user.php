@@ -1,4 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <button type="button">
+        <a href="<?php echo $path . "login.php"?>">login</a>
+    </button>
+</head>
+<body>
 
+</body>
+</html>
 <?php
     require_once(__DIR__ . "/../model/config.php");
 

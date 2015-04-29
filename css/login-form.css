@@ -1,3 +1,11 @@
+body{
+  background-image: url(http://omset.files.wordpress.com/2010/06/homer-simpson-1-264a0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+    
+}
 .group {
   position: relative;
   /* margin-bottom:45px; */

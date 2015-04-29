@@ -5,7 +5,7 @@
 </head>
 <body>
 <button type="button">
-        <a href="todo1/index.php">login</a>
+        <a href="<?php echo $path . "register.php"?>">register</a>
     </button>
 
 </body>
