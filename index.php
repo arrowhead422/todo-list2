@@ -7,17 +7,13 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <header>
-	<button type="button">
-		<a href="<?php echo $path . "register.php"?>">register</a>
-	</button>
-	<button type="button">
-		<a href="<?php echo $path . "login.php"?>">login</a>
-	</button>
-	<button type="button">
-		<a href="<?php echo $path . "controller/logout-user.php"?>">logout</a>
-	</button>
-	
-
+     <nav>
+       <ul class="navbar">
+         <li><a href="house.php">Home</a></li>
+         <li><a href="login.php">Login</a></li>
+         <li><a href="register.php">Register</a></li>
+       </ul>
+     </nav>
 </header>
 <body>
 	<div class="wrap">

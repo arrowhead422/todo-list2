@@ -8,10 +8,9 @@
 <header>
      <nav>
        <ul class="navbar">
-         <li><a href="#">Home</a></li>
-         <li><a href="#">About</a></li>
-         <li><a href="#">Blog</a></li>
-         <li><a href="#">Contact</a></li>
+         <li><a href="login.php">Login</a></li>
+         <li><a href="register.php">Register</a></li>
+         <li><a href="index.php">Blog</a></li>
        </ul>
      </nav>
 </header>  

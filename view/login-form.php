@@ -8,15 +8,22 @@
     <title></title>
 <link rel="stylesheet" type="text/css" href="css/login-form.css">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <header>
+     <nav>
+       <ul class="navbar">
+         <li><a href="house.php">Home</a></li>
+         <li><a href="register.php">Register</a></li>
+         <li><a href="index.php">Blog</a></li>
+       </ul>
+     </nav>
+</header>
 </head>
 <body>
 
 
 
 <h1>Login</h1>
-<button type="button">
-        <a href="<?php echo $path . "register.php"?>">register</a>
-    </button>
+
     
 <form method="POST" action="<?php echo $path . "controller/login-user.php"; ?>">
 <form>
