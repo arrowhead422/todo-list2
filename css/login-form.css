@@ -1,10 +1,18 @@
+
+#homer{
+   background-image: url(http://www.fondosdeescritorio10.com/wp-content/uploads/2008/10/homer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
+}
 body{
   background-image: url(http://omset.files.wordpress.com/2010/06/homer-simpson-1-264a0.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center top;
     background-attachment: fixed;
-    
+
 }
 .group {
   position: relative;
@@ -15,6 +23,11 @@ body{
   margin-left: auto;
   display: block;
   text-align: center;
+    -webkit-box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.3);
+  box-shadow: 7px 7px 20px 0px rgba(0,0,0,0.3);
+  border: 1px solid lightblue;
+  border-radius: 5px, 30px, 15px;
+
 }
 
 input {
@@ -104,4 +117,77 @@ input:focus ~ .highlight {
     width: 0;
     background: transparent;
   }
+}
+
+
+
+
+
+.submit {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 150px;
+    background-color: #FFF;
+    border: 2px solid #1ECD97;
+    border-radius: 50px;
+    color: #1ECD97;
+    font-size: 16px;
+    font-family: Montserrat;
+    transition: 0.4s;
+    outline-style: none;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #1ECD97;
+    color: #FFF;
+    transition: 0.4s;
+}
+
+.success {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 150px;
+    background-color: #1ECD97;
+    color: #FFF;
+    border: 2px solid #1ECD97;
+    border-radius: 50px;
+    font-size: 16px;
+    font-family: Montserrat;
+    transition: 0.4s;
+    outline-style: none;
+    cursor: pointer;
+}
+
+.loader {
+    /* placing */
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* end of placing */
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 4px solid #eee;
+    border-top: 4px solid #1ecd97;
+    color: #FFF; /* Yes it's useless */
+    outline-style: none;
+    transform: rotate(360deg);
+    transition: 0.6s;
+}
+
+i {
+    font-size: 25px;
 }

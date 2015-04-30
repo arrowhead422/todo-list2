@@ -6,19 +6,18 @@
 <html>
 <head>
     <title></title>
+<link rel="stylesheet" type="text/css" href="css/login-form.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
 </head>
 <body>
 
 
-<head><link rel="stylesheet" type="text/css" href="css/login-form.css"></head>
+
 <h1>Login</h1>
 <button type="button">
         <a href="<?php echo $path . "register.php"?>">register</a>
     </button>
-    <button type="button">
-        <a href="<?php echo $path . "index.php"?>">Blog</a>
-    </button>
-
+    
 <form method="POST" action="<?php echo $path . "controller/login-user.php"; ?>">
 <form>
     
@@ -37,7 +36,7 @@
   </div>
 
   <div class="group">      
-    <input type="text">
+    <input type="password">
     <span class="highlight"></span>
     <span class="bar"></span>
     <label>Password</label>
@@ -47,7 +46,7 @@
     
     <div>
         <input type="hidden" name="login" value="login" />
-        <button type="submit">Submit</button>
+        <button type="submit" class="submit">Submit</button>
     </div>
 
 </form>

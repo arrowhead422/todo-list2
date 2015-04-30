@@ -4,10 +4,9 @@
     <title></title>
 </head>
 <body>
-<button type="button">
-        <a href="<?php echo $path . "register.php"?>">register</a>
+ <button type="button">
+        <a href="<?php echo $path . "index.php"?>">Blog</a>
     </button>
-
 </body>
 </html>
 <?php

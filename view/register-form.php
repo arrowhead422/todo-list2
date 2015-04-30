@@ -1,12 +1,14 @@
 <?php
     require_once(__DIR__ . "/../model/config.php");
 ?>
-<head><link rel="stylesheet" type="text/css" href="css/login-form.css"></head>
+<head><link rel="stylesheet" type="text/css" href="css/login-form.css">
+<link rel="stylesheet" type="text/css" href="css/login-form.css"></head>
 <h1>Register</h1>
 <button type="button">
         <a href="<?php echo $path . "login.php"?>">login</a>
     </button>
-
+    
+<body id="homer">
 <form method="POST" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div class="group">      
     <input type="text">
@@ -23,7 +25,7 @@
   </div>
 
   <div class="group">      
-    <input type="text">
+    <input type="password">
     <span class="highlight"></span>
     <span class="bar"></span>
     <label>Password</label>
@@ -33,10 +35,10 @@
     
     <div>
         <input type="hidden" name="login" value="login" />
-        <button type="submit">Submit</button>
+        <button type="submit" class="submit">Submit</button>
     </div>
 </form>
-
+</body>
 <footer>
     <script type="text/javascript" src="todo1/javascrip/login-form.php"></script>
 </footer>

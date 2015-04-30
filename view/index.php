@@ -16,10 +16,11 @@
 	<button type="button">
 		<a href="<?php echo $path . "controller/logout-user.php"?>">logout</a>
 	</button>
-	
+
 
 </header>
 <body>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 	<div class="wrap">
 		<div class="task-list">
 			<ul>
